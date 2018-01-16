@@ -72,8 +72,8 @@ class pendulum_bob(pygame.sprite.Sprite):
 		#self.image.fill((0,255,0))
 		self.rect = self.image.get_rect()
 		self.rect.center = (width/2,hieght/2)
-		self.speedx = 20
-		self.speedy = 40
+		self.speedx = 175
+		self.speedy = 180
 		self.dt = 0.1
 	
 	def other_update(self):
